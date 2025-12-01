@@ -170,11 +170,40 @@ public static class Recursion
             currPath = new List<ValueTuple<int, int>>();
         }
 
-        // currPath.Add((1,2)); // Use this syntax to add to the current path
+        // Add the current position to the path
+        currPath.Add((x, y));
 
-        // TODO Start Problem 5
-        // ADD CODE HERE
+        // If we are at the end, add the path to the results
+        if (maze.IsEnd(x, y))
+        {
+            results.Add(currPath.AsString());
+        }
+        else
+        {
+            // Explore in all 4 directions (if valid)
+            // Move Right
+            if (maze.IsValidMove(currPath, x + 1, y))
+            {
+                SolveMaze(results, maze, x + 1, y, currPath);
+            }
+            // Move Down
+            if (maze.IsValidMove(currPath, x, y + 1))
+            {
+                SolveMaze(results, maze, x, y + 1, currPath);
+            }
+            // Move Left
+            if (maze.IsValidMove(currPath, x - 1, y))
+            {
+                SolveMaze(results, maze, x - 1, y, currPath);
+            }
+            // Move Up
+            if (maze.IsValidMove(currPath, x, y - 1))
+            {
+                SolveMaze(results, maze, x, y - 1, currPath);
+            }
+        }
 
-        // results.Add(currPath.AsString()); // Use this to add your path to the results array keeping track of complete maze solutions when you find the solution.
+        // Backtrack: remove the current position from the path
+        currPath.RemoveAt(currPath.Count - 1);
     }
 }
