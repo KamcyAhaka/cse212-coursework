@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.7">
   <diagram name="Page-1" id="bvTR-bloszexrbmAYGXl">
-    <mxGraphModel dx="599" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1697" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -106,11 +106,17 @@
         <mxCell id="FHpXvj4EiBv8nhU3LaDC-131" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Leaf" vertex="1">
           <mxGeometry height="20" width="34" x="247" y="650" as="geometry" />
         </mxCell>
-        <mxCell id="FHpXvj4EiBv8nhU3LaDC-132" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="NODES: 20, 15, 12, 32, 4, 3, 24, 5" vertex="1">
+        <mxCell id="FHpXvj4EiBv8nhU3LaDC-132" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Nodes: 20, 15, 12, 32, 4, 3, 24, 5" vertex="1">
           <mxGeometry height="30" width="190" x="150" y="760" as="geometry" />
         </mxCell>
-        <mxCell id="FHpXvj4EiBv8nhU3LaDC-133" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="NODES: 20, 15, 12, 32, 4, 3, 24, 5" vertex="1">
-          <mxGeometry height="30" width="190" x="150" y="790" as="geometry" />
+        <mxCell id="FHpXvj4EiBv8nhU3LaDC-133" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Leaves – (Nodes without children nodes): 4, 3, 24, 5" vertex="1">
+          <mxGeometry height="30" width="290" x="150" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="3OgeuIYE3y7M5YW_-P6h-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Root: 20" vertex="1">
+          <mxGeometry height="30" width="290" x="150" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="3OgeuIYE3y7M5YW_-P6h-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Subtree roots: 15, 32" vertex="1">
+          <mxGeometry height="30" width="290" x="150" y="850" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
